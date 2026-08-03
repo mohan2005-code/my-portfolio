@@ -43,8 +43,11 @@ function About() {
             </h3>
 
             <p className="text-gray-300 leading-8 mb-6">
-              Hello! I'm <span className="text-blue-400 font-semibold">Mohan Bejjanki</span>,
-              a passionate Computer Engineering student who enjoys building
+              Hello! I'm{" "}
+              <span className="text-blue-400 font-semibold">
+                Mohan Bejjanki
+              </span>
+              , a passionate Computer Engineering student who enjoys building
               modern web applications and exploring Artificial Intelligence,
               Machine Learning and Java development.
             </p>
@@ -66,7 +69,7 @@ function About() {
               </div>
 
               <div className="bg-slate-800 rounded-xl p-5 text-center">
-                <h4 className="text-4xl font-bold text-blue-500">2026</h4>
+                <h4 className="text-4xl font-bold text-blue-500">2028</h4>
                 <p className="text-gray-400 mt-2">
                   Graduation
                 </p>
