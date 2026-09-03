@@ -4,6 +4,10 @@ import creditCard from "../assets/projects/credit card.png";
 import debtRelief from "../assets/projects/Ai debt releif.png";
 import portfolio from "../assets/projects/portfolio.png";
 
+// Add these two images after you save the website screenshots
+import cloudKitchen from "../assets/projects/cloud-kitchen.png";
+import appleAdventure from "../assets/projects/apple-adventure.png";
+
 const projects = [
   {
     title: "Credit Card Approval Prediction",
@@ -18,7 +22,7 @@ const projects = [
       "CSS",
     ],
     github: "https://github.com/mohan2005-code",
-    demo: "#", // Replace with your deployed link later
+    demo: "#",
   },
 
   {
@@ -35,6 +39,36 @@ const projects = [
     ],
     github: "https://github.com/mohan2005-code",
     demo: "#",
+  },
+
+  {
+    title: "Savoria — Cloud Kitchen",
+    image: cloudKitchen,
+    description:
+      "A modern cloud kitchen website designed to showcase food items and provide customers with a smooth and engaging online food ordering experience.",
+    technologies: [
+      "React",
+      "JavaScript",
+      "HTML",
+      "CSS",
+    ],
+    github: "https://github.com/mohan2005-code",
+    demo: "https://cloud-kitchen-web-ap-mrrh.bolt.host/",
+  },
+
+  {
+    title: "Apple Adventure",
+    image: appleAdventure,
+    description:
+      "An interactive educational website designed to make learning about apples fun and engaging through a colorful and user-friendly experience.",
+    technologies: [
+      "React",
+      "JavaScript",
+      "HTML",
+      "CSS",
+    ],
+    github: "https://github.com/mohan2005-code",
+    demo: "https://apple-adventure-kids-c0ao.bolt.host/",
   },
 
   {
@@ -62,7 +96,6 @@ function Projects() {
       <div className="max-w-7xl mx-auto">
 
         {/* Heading */}
-
         <div
           className="text-center mb-16"
           data-aos="fade-up"
@@ -77,7 +110,6 @@ function Projects() {
         </div>
 
         {/* Project Cards */}
-
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
 
           {projects.map((project, index) => (
@@ -90,7 +122,6 @@ function Projects() {
             >
 
               {/* Project Image */}
-
               <div className="overflow-hidden">
 
                 <img
@@ -102,7 +133,6 @@ function Projects() {
               </div>
 
               {/* Content */}
-
               <div className="p-6">
 
                 <h3 className="text-2xl font-bold text-blue-400 mb-4">
@@ -114,7 +144,6 @@ function Projects() {
                 </p>
 
                 {/* Technologies */}
-
                 <div className="flex flex-wrap gap-2 mb-6">
 
                   {project.technologies.map((tech, i) => (
@@ -131,7 +160,6 @@ function Projects() {
                 </div>
 
                 {/* Buttons */}
-
                 <div className="flex gap-4">
 
                   <a
